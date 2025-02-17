@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class App {
+public class Recursivo{
     // EJERCICIOS RECURSIVIDAD
     // EJERCICIO 8: Suma de los elementos pares de una lista:  
 
@@ -15,6 +15,7 @@ public class App {
     }else{
         return sumaListaPares(arr, index + 1);
     }
+}
         //toma como entrada una lista de enteros arr y un índice index y devuelve la suma de los elementos pares de la lista.
         //El caso base cuando index=longitud de la lista, lo que significa que se ha recorrido toda la lista. 
         //En ese caso, se devuelve 0.
