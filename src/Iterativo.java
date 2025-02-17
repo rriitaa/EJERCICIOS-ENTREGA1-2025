@@ -1,8 +1,23 @@
 public class Iterativo {
     
 //EJERCICIO 1: La suma 0 + 1 + 2 + ... + n.
+public static int suma(int n){
+
+    int sumaTotal = 0;
+    for(int i=0; int i<=n; i++){
+        sumaTotal = sumaTotal + i;
+    }
+    return sumaTotal;
+}
 
 //EJERCICIO 2: El factorial de un número.
+public static int factorial(int n){
+
+    int variable = 1;
+    for(int i=1; int i<=n; i++){
+        variable = variable * i;
+    }return variable;
+}
 
 //EJERCICIO 3: La potencia n-ésima de un número natural.
 

@@ -1,9 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-
+// EJERCICIOS RECURSIVIDAD: no se usan bucles, se usa un metodo que se llama asi mismo
 public class Recursivo{
-    // EJERCICIOS RECURSIVIDAD
-
+    
     //EJERCICIO 1: La suma 0 + 1 + 2 + ... + n.
 
     //EJERCICIO 2: El factorial de un número.
@@ -22,7 +21,6 @@ public class Recursivo{
     //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
     //Por ejemplo, sumaP ares([1, 2, 3, 4]) = 6.  
 
-    
     public static int sumaListaPares(int[] arr, int index) {
         if (index == arr.length) {
         return 0;
