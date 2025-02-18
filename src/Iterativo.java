@@ -4,17 +4,18 @@ public class Iterativo {
 public static int suma(int n){
 
     int sumaTotal = 0;
-    for(int i=0; int i<=n; i++){
+    for(int i=0; i<=n; i++){
         sumaTotal = sumaTotal + i;
     }
     return sumaTotal;
 }
 
+
 //EJERCICIO 2: El factorial de un número.
 public static int factorial(int n){
 
     int variable = 1;
-    for(int i=1; int i<=n; i++){
+    for(int i=1; i<=n; i++){
         variable = variable * i;
     }return variable;
 }
