@@ -22,9 +22,10 @@ public static int factorial(int n){
 
 //EJERCICIO 3: La potencia n-ésima de un número natural.
 public static int potencia(int base, int exponente){
-    for(int i=1; i<=n; i++){
-        base * exponente;
+    for(int i=1; i<=exponente; i++){
+        int result = base * exponente;
     }
+    return result;
 }
 
 //EJERCICIO 4: La suma de los elementos de una lista de números.
