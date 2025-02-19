@@ -36,8 +36,9 @@ public static int potencia(int base, int exponente, int j){
 
 //EJERCICIO 4: La suma de los elementos de una lista de números.
 public static int sumaLista(List<Integer>listaa){
-    for(int i=0; i<=ListDataEvent.size; i++){
-        suma += lista.get(i);  // Sumar cada elemento
+    int suma = 0;
+    for(int i=0; i<=ListDataEvent.size(); i++){
+        suma += listaa.get(i);  // Sumar cada elemento
         }
         return suma;
 
