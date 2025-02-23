@@ -85,7 +85,17 @@ public static int sumaPares(int n){
 }
 
 //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
-//Por ejemplo, sumaP ares([1, 2, 3, 4]) = 6.
+//Por ejemplo, sumaListaPares([1, 2, 3, 4]) = 6.
+public static int sumaListaPares(List<Integer>listaa){
+    int suma = 0;
+    for(int i=0; i<=listaa.size() ; i++){
+
+        if(listaa.get(i) % 2 == 0){
+            suma = suma + listaa.get(i);
+        }
+    }return suma;
+    }
+}
 
 //EJERCICIO 9: Dada una lista de números naturales mayores o iguales que 2, 
 //obtiene otra lista con los números pares de la lista inicial, en el mismo orden y
