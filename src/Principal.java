@@ -16,11 +16,13 @@ public class Principal {
         int[] lista = {1, 2, 3, 4, 5, 6};
         System.out.println("Suma de pares recursiva en lista: " + Recursivo.sumaListaPares(lista, 0));
         //prueba ejer5:
-        List<Integer> listaa = Arrays.asList(1, 2, 3, 4, 5);
-        System.out.println("Media de la lista: " + Iterativo.mediaLista(listaa));
+        System.out.println("la media de la lista es:" + mediaLista(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer6:
+        System.out.println("la desviacion tipica es: " + desviacionTipica(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer7:
+        System.out.println("la suma par es: " + sumaPares(9));
         //prueba ejer8:
+        System.out.println("la suma par de la lista es: +" + sumaListaPares(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer9:
 
         //pruebas de los métodos en Recursivo.java

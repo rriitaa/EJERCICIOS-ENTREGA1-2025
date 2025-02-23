@@ -106,5 +106,3 @@ public static int sumaListaPares(List<Integer>listaa){
 
 //EJERCICIO 11: Producto escalar de dos listas de números no vacías y del mismo tamaño. 
 //Por ejemplo, calcularP roductoEscalar([1, 2, 3], [2, 4, 6]) = 1 · 2 +2 · 4 + 3 · 6 = 2 + 8 + 18 = 28
-
-}
