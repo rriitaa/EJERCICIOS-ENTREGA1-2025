@@ -14,6 +14,12 @@ public class Recursivo{
     }
 
     //EJERCICIO 2: El factorial de un número.
+    public static int factorial(int n){
+        if (n==1){
+            return 1;
+        }
+        return n*factorial(n-1);
+    }
 
     //EJERCICIO 3: La potencia n-ésima de un número natural.
 
