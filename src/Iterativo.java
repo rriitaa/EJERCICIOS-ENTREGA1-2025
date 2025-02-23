@@ -43,7 +43,8 @@ public static int sumaLista(List<Integer>listaa){
     }
 
 //EJERCICIO 5: La media aritmética de una lista de números.
-//sumo cada elemnto de la lista y luego divido por el num de elemntos q tenga la lista
+//primero calcular la media de la lista (ya esta calculada arriba)
+//y luego divido por el num de elemntos q tenga la lista
 public static double mediaLista(List<Integer>listaa){
     int suma = 0;
     for(int i=0; i<=listaa.size(); i++){
@@ -53,6 +54,21 @@ public static double mediaLista(List<Integer>listaa){
 }
 
 //EJERCICIO 6: La desviación típica de una lista de números.
+//primero calcular la media de la lista (ya esta calculada arriba)
+//luego calcular las diferencias al cuadrado y las sumastotal 
+//divido entre el num total de elemntos en la lista 
+//final hacemos square root de ese result
+public static double desviacionTipica(List<Integer>listaa){
+    int suma = 0;
+    int elemento = 0;
+    for(int i=0; i<=listaa.size(); i++){
+        suma = suma + listaa.get(i);
+    }
+    return media = suma/listaa.size();
+
+    return suma + (elemento - media)^2;
+    return sqr(suma/listaa.size());
+}
 
 
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. 
