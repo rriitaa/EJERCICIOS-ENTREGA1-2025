@@ -54,6 +54,7 @@ public static double mediaLista(List<Integer>listaa){
 
 //EJERCICIO 6: La desviación típica de una lista de números.
 
+
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. 
 //Por ejemplo, sumaP ares(9) = 8 + 6 + 4 + 2 = 20.
 

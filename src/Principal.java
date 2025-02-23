@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.List;
+
 public class Principal {
     public static void main(String[] args) {
 
@@ -9,7 +12,11 @@ public class Principal {
         //prueba ejer3:
         System.out.println("Potencia de 2 elevado a 3: " + potencia(2, 3));
         //prueba ejer4:
+        int[] lista = {1, 2, 3, 4, 5, 6};
+        System.out.println("Suma de pares recursiva en lista: " + Recursivo.sumaListaPares(lista, 0));
         //prueba ejer5:
+        List<Integer> listaa = Arrays.asList(1, 2, 3, 4, 5);
+        System.out.println("Media de la lista: " + Iterativo.mediaLista(listaa));
         //prueba ejer6:
         //prueba ejer7:
         //prueba ejer8:
@@ -25,9 +32,7 @@ public class Principal {
         //prueba ejer7:
         //prueba ejer8:
         //prueba ejer9:
-        
-        int[] lista = {1, 2, 3, 4, 5, 6};
-        System.out.println("Suma de pares recursiva en lista: " + Recursivo.sumaListaPares(lista, 0));
+
     }
 
     private static String potencia(int i, int i0) {
