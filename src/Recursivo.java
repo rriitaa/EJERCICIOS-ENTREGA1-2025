@@ -22,6 +22,12 @@ public class Recursivo{
     }
 
     //EJERCICIO 3: La potencia n-ésima de un número natural.
+    public static int potencia(int base, int exponente){
+        if (exponente == 0){
+            return 1; //todo numero q tenga de exponente 0 te dara 1
+        }
+        return base * exponente;
+    }
 
     //EJERCICIO 4: La suma de los elementos de una lista de números.
 
