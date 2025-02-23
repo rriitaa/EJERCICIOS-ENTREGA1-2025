@@ -1,8 +1,6 @@
 
 import java.util.List;
 
-import javax.swing.event.ListDataEvent;
-
 public class Iterativo {
     
 //EJERCICIO 1: La suma 0 + 1 + 2 + ... + n.
@@ -37,14 +35,22 @@ public static int potencia(int base, int exponente, int j){
 //EJERCICIO 4: La suma de los elementos de una lista de números.
 public static int sumaLista(List<Integer>listaa){
     int suma = 0;
-    for(int i=0; i<=ListDataEvent.size(); i++){
-        suma += listaa.get(i);  // Sumar cada elemento
+    for(int i=0; i<=listaa.size(); i++){
+        suma += listaa.get(i);  //sumar cada elemento = suma = suma + listaa.get(i);
         }
         return suma;
 
     }
 
 //EJERCICIO 5: La media aritmética de una lista de números.
+//sumo cada elemnto de la lista y luego divido por el num de elemntos q tenga la lista
+public static double mediaLista(List<Integer>listaa){
+    int suma = 0;
+    for(int i=0; i<=listaa.size(); i++){
+        suma = suma + listaa.get(i);
+    }
+    return suma/listaa.size(); //NO ENTIENDO DIFERENCIA ENTRE SIZE Y LENGTH
+}
 
 //EJERCICIO 6: La desviación típica de una lista de números.
 
