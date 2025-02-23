@@ -26,7 +26,7 @@ public static int factorial(int n){
 //EJERCICIO 3: La potencia n-ésima de un número natural.
 public static int potencia(int base, int exponente, int j){
     int result=1;
-    for(int i=1; i<=exponente; i++){
+    for(int i=0; i<exponente; i++){
         result = result * base;
     }
     return result;

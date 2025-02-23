@@ -10,6 +10,7 @@ public class Principal {
         //prueba ejer2:
         System.out.println("Factorial iterativo de 5: " + Iterativo.factorial(5));
         //prueba ejer3:
+        //NO ENTIENDO PORQ POTENCIA DA ERROR
         System.out.println("Potencia de 2 elevado a 3: " + potencia(2, 3));
         //prueba ejer4:
         int[] lista = {1, 2, 3, 4, 5, 6};
@@ -33,9 +34,5 @@ public class Principal {
         //prueba ejer8:
         //prueba ejer9:
 
-    }
-
-    private static String potencia(int i, int i0) {
-        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
