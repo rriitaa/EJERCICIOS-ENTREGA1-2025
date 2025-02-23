@@ -59,15 +59,18 @@ public static double mediaLista(List<Integer>listaa){
 //divido entre el num total de elemntos en la lista 
 //final hacemos square root de ese result
 public static double desviacionTipica(List<Integer>listaa){
-    int suma = 0;
-    int elemento = 0;
+    double suma = 0;
     for(int i=0; i<=listaa.size(); i++){
         suma = suma + listaa.get(i);
     }
     return media = suma/listaa.size();
 
-    return suma + (elemento - media)^2;
-    return sqr(suma/listaa.size());
+    double sumaCuadrados = 0;
+    for (int i = 0; i < listaa.size(); i++) {
+        sumaCuadrados += Math.pow(listaa.get(i) - media, 2);
+    }
+    double varianza = sumaCuadrados/listaa.size();
+    return Math.sqrt(varianza);
 }
 
 
