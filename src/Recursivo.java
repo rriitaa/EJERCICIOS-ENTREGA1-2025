@@ -4,6 +4,14 @@ import java.util.List;
 public class Recursivo{
     
     //EJERCICIO 1: La suma 0 + 1 + 2 + ... + n.
+    public static int suma(int n){
+        //caso base: si n es 0, la suma es 0
+        if (n==0){ 
+            return 0;
+        }
+        //paso recursivo: se llama a suma: y suma n + la suma de los anteriores
+        return n + suma(n-1);
+    }
 
     //EJERCICIO 2: El factorial de un número.
 
