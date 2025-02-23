@@ -71,11 +71,21 @@ public static double desviacionTipica(List<Integer>listaa){
     }
     double varianza = sumaCuadrados/listaa.size();
     return Math.sqrt(varianza);
-}
+} //NO ESTOY ENTENDIENDO ESTO MUY BIEN....
 
 
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. 
-//Por ejemplo, sumaP ares(9) = 8 + 6 + 4 + 2 = 20.
+//Por ejemplo, sumaPares(9) = 8 + 6 + 4 + 2 = 20.
+public static int sumaPares(int n){
+    for(int i=0; i<=n; i++){
+        if(n % 2 == 0){
+            return "el numero es par";
+        }else(n % 2== 1){
+            return "el numero es impar";
+        }
+        return sum n;
+    }
+}
 
 //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
 //Por ejemplo, sumaP ares([1, 2, 3, 4]) = 6.
