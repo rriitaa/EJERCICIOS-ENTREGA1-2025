@@ -77,14 +77,11 @@ public static double desviacionTipica(List<Integer>listaa){
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. 
 //Por ejemplo, sumaPares(9) = 8 + 6 + 4 + 2 = 20.
 public static int sumaPares(int n){
-    for(int i=0; i<=n; i++){
-        if(n % 2 == 0){
-            return "el numero es par";
-        }else(n % 2== 1){
-            return "el numero es impar";
-        }
-        return sum n;
+    int suma = 0;
+    for(int i=2; i<=n; i+=2){
+        suma = suma + i;
     }
+    return suma;
 }
 
 //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
