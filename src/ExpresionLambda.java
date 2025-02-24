@@ -3,6 +3,8 @@ import java.util.List;
 
 
 //EXPRESION LAMBDA: (parametros) -> { cuerpo de la expresión }
+//(0, (x, y) -> {return x+y;})
+//(0, (x, y) -> {x+y;})
 //Parámetros: Son los valores que recibe la función (como en un método normal).
 //cuerpo de la expresión:la lógica que ejecutará la función y puede ser 1 línea o bloque { } con varias línea
 public class ExpresionLambda {
