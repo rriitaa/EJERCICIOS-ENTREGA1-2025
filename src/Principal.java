@@ -1,7 +1,7 @@
 
 public class Principal {
     public static void main(String[] args) {
-/*
+
         //pruebas de los métodos en Iterativo.java
         //prueba ejer1:
         System.out.println("Suma iterativa de 5: " + Iterativo.suma(5));
@@ -22,7 +22,7 @@ public class Principal {
         //prueba ejer8:
         System.out.println("la suma par de la lista es: +" + Iterativo.sumaListaPares(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer9:
-*/
+
 
         //pruebas de los métodos en Recursivo.java
         //prueba eje1:
