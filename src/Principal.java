@@ -1,7 +1,7 @@
 
 public class Principal {
     public static void main(String[] args) {
-
+        /* 
         //pruebas de los métodos en Iterativo.java
         //prueba ejer1:
         System.out.println("Suma iterativa de 5: " + Iterativo.suma(5));
@@ -29,6 +29,18 @@ public class Principal {
         System.out.println(Recursivo.suma(5));
         //prueba ejer2:
         System.out.println(Recursivo.factorial(5));
+        //prueba ejer3:
+        //prueba ejer4:
+        //prueba ejer5:
+        //prueba ejer6:
+        //prueba ejer7:
+        //prueba ejer8:
+        //prueba ejer9:
+        */
+
+        //pruebas de los métodos ExpresionesLambda.java
+        //prueba eje1:
+        //prueba ejer2:
         //prueba ejer3:
         //prueba ejer4:
         //prueba ejer5:
