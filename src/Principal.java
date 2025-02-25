@@ -39,6 +39,7 @@ public class Principal {
         //System.out.println("La media de la lista es: " + Recursivo.mediaLista(listaa)); //media = (1+2+3+4+5)/5 = 3.0
         //prueba ejer6:
         //prueba ejer7:
+        System.out.println("la suma par es: " + Recursivo.sumaPares(9));
         //prueba ejer8:
         //prueba ejer9:
         
