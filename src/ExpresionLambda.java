@@ -1,34 +1,36 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 //EXPRESION LAMBDA: (parametros) -> { cuerpo de la expresión }
 //(0, (x, y) -> {return x+y;})
 //(0, (x, y) -> {x+y;})
 //Parámetros: Son los valores que recibe la función (como en un método normal).
 //cuerpo de la expresión:la lógica que ejecutará la función y puede ser 1 línea o bloque { } con varias línea
 public class ExpresionLambda {
-//EJERCICIO 1: La suma 0 + 1 + 2 + ... + n.
+    // EJERCICIO 1: La suma 0 + 1 + 2 + ... + n.
 
-//EJERCICIO 2: El factorial de un número.
-//primero hacemos el arrayList
-public static int factorial(int n){
-ArrayList <Integer> listaa = new ArrayList();
-listaa.add(1);
-listaa.add(2);
-listaa.add(3);
-listaa.add(4);
-listaa.add(5);
-//ahora hacemos la lista de streams
-int result =  listaa.stream().reduce(1, (x, y) -> {return x*y;});
-return result;
-}
+    // EJERCICIO 2: El factorial de un número.
+    // primero hacemos el arrayList
+    public static int factorial(int n) {
+        ArrayList<Integer> listaa = new ArrayList();
+        listaa.add(1);
+        listaa.add(2);
+        listaa.add(3);
+        listaa.add(4);
+        listaa.add(5);
+        // ahora hacemos la lista de streams
+        int result = listaa.stream().reduce(1, (x, y) -> {
+            return x * y;
+        });
+        return result;
+    }
 
-//EJERCICIO 3: La potencia n-ésima de un número natural.
-//EJERCICIO 4: La suma de los elementos de una lista de números.
-//EJERCICIO 5: La media aritmética de una lista de números.
+    // EJERCICIO 3: La potencia n-ésima de un número natural.
+    // EJERCICIO 4: La suma de los elementos de una lista de números.
+    // EJERCICIO 5: La media aritmética de una lista de números.
 public static double mediaLista(List<Integer>listaa){
-    System.out.println("la media de la lista es: "+ ());
+    System.out.println{
+        listaa.stream().reduce(0.0, (x, y)->{return (x+y); }) / numero;
 }
 //EJERCICIO 6: La desviación típica de una lista de números.
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. Por

@@ -30,6 +30,14 @@ public class Recursivo{
     }
 
     //EJERCICIO 4: La suma de los elementos de una lista de números.
+    public static int sumaLista(List<Integer>listaa){
+        if (listaa == 0){
+            return 0;
+        }else (listaa<0){
+            suma = listaa.sum();
+        }
+        return suma;
+    }
 
     //EJERCICIO 5: La media aritmética de una lista de números.
 
