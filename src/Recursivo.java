@@ -41,6 +41,14 @@ public class Recursivo{
     
 
     //EJERCICIO 5: La media aritmética de una lista de números.
+    public static double mediaLista(List<Integer>listaa){
+        //cogemos el codigo del ejer4
+        if (listaa.isEmpty()){
+            return 0;
+        }int suma = sumaLista(listaa);  //llamamos al método sumaLista para obtener la suma
+        return (double) suma / listaa.size;
+
+    }
 
     //EJERCICIO 6: La desviación típica de una lista de números.
 
