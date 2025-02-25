@@ -57,10 +57,12 @@ public class Recursivo{
     public static int sumaPares(int n){
         if(n==2){
             return 2;
-        }else(n % 2==0){
-            return sumaPares -2;
         }
-    }
+        if(n % 2==0){
+            return n + sumaPares(n-2);
+        }
+        return sumaPares(n-1); //si es impar, resta 1 para hacerlo par y luego sumas
+     }
 
     //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
     //Por ejemplo, sumaP ares([1, 2, 3, 4]) = 6.  
