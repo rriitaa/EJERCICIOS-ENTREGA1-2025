@@ -53,7 +53,14 @@ public class Recursivo{
     //EJERCICIO 6: La desviación típica de una lista de números.
 
     //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. 
-    //Por ejemplo, sumaP ares(9) = 8 + 6 + 4 + 2 = 20.
+    //Por ejemplo, sumaPares(9) = 8 + 6 + 4 + 2 = 20.
+    public static int sumaPares(int n){
+        if(n==2){
+            return 2;
+        }else(n % 2==0){
+            return sumaPares -2;
+        }
+    }
 
     //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
     //Por ejemplo, sumaP ares([1, 2, 3, 4]) = 6.  

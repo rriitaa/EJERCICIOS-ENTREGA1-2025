@@ -33,8 +33,8 @@ public class Principal {
         // Ejercicio 3: Potencia n-ésima
         System.out.println("La potencia es: " + Recursivo.potencia(2, 3)); //2^3 = 8
         //prueba ejer4:
-        List<Integer> lista = List.of(1, 2, 3, 4, 5);
-        System.out.println("La suma de la lista es: " + Recursivo.sumaLista(lista)); //1 + 2 + 3 + 4 + 5 = 15
+        //List<Integer> listaa = List.of(1, 2, 3, 4, 5);
+        //System.out.println("La suma de la lista es: " + Recursivo.sumaLista(listaa)); //1 + 2 + 3 + 4 + 5 = 15
         //prueba ejer5:
         //System.out.println("La media de la lista es: " + Recursivo.mediaLista(listaa)); //media = (1+2+3+4+5)/5 = 3.0
         //prueba ejer6:
