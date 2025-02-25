@@ -31,13 +31,14 @@ public class Recursivo{
 
     //EJERCICIO 4: La suma de los elementos de una lista de números.
     public static int sumaLista(List<Integer>listaa){
-        if (listaa == 0){
+        //caso base: si la lista está vacía, la suma es 0
+        if (listaa.isEmpty()){
             return 0;
-        }else (listaa<0){
-            suma = listaa.sum();
         }
-        return suma;
+        //paso recursivo: sumamos el primer elemento y llamamos recursivamente con el resto de la lista
+            return listaa.get(0) + sumaLista(listaa.subList(1, listaa.size()));
     }
+    
 
     //EJERCICIO 5: La media aritmética de una lista de números.
 
