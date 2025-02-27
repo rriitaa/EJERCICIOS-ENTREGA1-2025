@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 //EXPRESION LAMBDA: (parametros) -> { cuerpo de la expresión }
 //(0, (x, y) -> {return x+y;})
@@ -32,12 +33,20 @@ public static double mediaLista(List<Integer>listaa){
     System.out.println{
         listaa.stream().reduce(0.0, (x, y)->{return (x+y); }) / numero;
 }
+}
 //EJERCICIO 6: La desviación típica de una lista de números.
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. Por
 //ejemplo, sumaPares(9) = 8 + 6 + 4 + 2 = 20.
 //EJERCICIO 8:La suma de los elementos pares de una lista de enteros.
 //ejemplo: sumaPares([1, 2, 3, 4]) = 6.
+
 //EJERCICIO 9:Dada una lista de números naturales mayores o iguales que 2, obtieneotra lista 
 //con los números pares de la lista inicial, en el mismo orden y respetando los números 
-//repetidos. Por ejemplo, obtenerListaP ar([1, 2, 6, 11]) = [2, 6]
+//repetidos. Por ejemplo, obtenerListaPar([1, 2, 6, 11]) = [2, 6]
+public static List<Integer> obtenerListaPar(List<Integer>listaa){
+    return listaa.stream()
+                    .filter(n -> n % 2 == 0) //filtra numeros pares
+                    .collect(Collectors.toList()); //convertir a lista
+}
+
 }
