@@ -48,7 +48,20 @@ public static double mediaLista(List<Integer>listaa){
 public static List<Integer> obtenerListaPar(List<Integer>listaa){
     return listaa.stream()
                     .filter(n -> n % 2 == 0) //filtra numeros pares
-                    .collect(Collectors.toList()); //convertir a lista
+                    .collect(Collectors.toList()); //convertir a una lista
 }
-
+/*
+//otra forma de hacerlo (visto en clase seria):
+ArrayList<Integer> obtenerListaPar = new ArrayList<>();
+ArrayList<Integer> ListaPar = new ArrayList<>();
+int numero = 0;
+for(int i=0; i<10; i++){
+numero++;
+obtenerListaPar.add(numero);
+}
+obtenerListaPar.stream()
+.filter((x)->(x%2==0))
+.forEach((x)->{ListaPar.add(x);})
+system.out.println(ListaPar);
+*/
 }
