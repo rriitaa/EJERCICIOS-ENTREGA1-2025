@@ -22,7 +22,7 @@ public class Principal {
         //prueba ejer8:
         System.out.println("la suma par de la lista es: +" + Iterativo.sumaListaPares(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer9:
-
+*/
 
         //pruebas de los métodos en Recursivo.java
         //prueba eje1:
@@ -36,13 +36,13 @@ public class Principal {
         //List<Integer> listaa = List.of(1, 2, 3, 4, 5);
         //System.out.println("La suma de la lista es: " + Recursivo.sumaLista(listaa)); //1 + 2 + 3 + 4 + 5 = 15
         //prueba ejer5:
-        //System.out.println("La media de la lista es: " + Recursivo.mediaLista(listaa)); //media = (1+2+3+4+5)/5 = 3.0
+        System.out.println("La media de la lista es: " + Recursivo.mediaLista(listaa)); //media = (1+2+3+4+5)/5 = 3.0
         //prueba ejer6:
         //prueba ejer7:
         System.out.println("la suma par es: " + Recursivo.sumaPares(9));
         //prueba ejer8:
         //prueba ejer9:
-        */
+        
 
         //pruebas de los métodos ExpresionesLambda.java
         //prueba eje1:
