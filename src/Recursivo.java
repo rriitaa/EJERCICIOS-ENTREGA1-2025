@@ -46,7 +46,7 @@ public class Recursivo{
         if (listaa.isEmpty()){
             return 0;
         }int suma = sumaLista(listaa);  //llamamos al método sumaLista para obtener la suma
-        return (double) suma / listaa.size;
+        return (double) suma / listaa.size();
 
     }
 
