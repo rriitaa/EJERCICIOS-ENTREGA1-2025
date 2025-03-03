@@ -60,10 +60,10 @@ public static double mediaLista(List<Integer>listaa){
 //final hacemos square root de ese result
 public static double desviacionTipica(List<Integer>listaa){
     double suma = 0;
-    for(int i=0; i<=listaa.size(); i++){
+    for(int i=0; i<listaa.size(); i++){
         suma = suma + listaa.get(i);
     }
-    return media = suma/listaa.size();
+    media = suma/listaa.size();
 
     double sumaCuadrados = 0;
     for (int i = 0; i < listaa.size(); i++) {
