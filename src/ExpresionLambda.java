@@ -22,9 +22,7 @@ public class ExpresionLambda {
         listaa.add(4);
         listaa.add(5);
         // ahora hacemos la lista de streams
-        int result = listaa.stream().reduce(1, (x, y) -> {
-            return x * y;
-        });
+        int result = listaa.stream().reduce(1, (x, y) -> { return x * y;});
         return result;
     }
 
