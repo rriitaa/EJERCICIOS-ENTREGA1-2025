@@ -31,10 +31,9 @@ public class ExpresionLambda {
     // EJERCICIO 3: La potencia n-ésima de un número natural.
     // EJERCICIO 4: La suma de los elementos de una lista de números.
     // EJERCICIO 5: La media aritmética de una lista de números.
-public static double mediaLista(List<Integer>listaa){
-    System.out.println{
-        listaa.stream().reduce(0.0, (x, y)->{return (x+y); }) / numero;
-}
+public static double mediaLista(List<Double>listaa){
+    System.out.println(
+        listaa.stream().reduce(0.0, (x, y)->{return (x+y); }) / listaa.size());
 }
 //EJERCICIO 6: La desviación típica de una lista de números.
 //EJERCICIO 7: La suma de los primeros números pares hasta n asumiendo n ≥ 2. Por
