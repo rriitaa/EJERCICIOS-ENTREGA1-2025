@@ -24,7 +24,7 @@ public static int factorial(int n){
 }
 
 //EJERCICIO 3: La potencia n-ésima de un número natural.
-public static int potencia(int base, int exponente, int j){
+public static int potencia(int base, int exponente){
     int result=1;
     for(int i=0; i<exponente; i++){
         result = result * base;
@@ -63,6 +63,7 @@ public static double desviacionTipica(List<Integer>listaa){
     for(int i=0; i<listaa.size(); i++){
         suma = suma + listaa.get(i);
     }
+    double media = 0;
     media = suma/listaa.size();
 
     double sumaCuadrados = 0;

@@ -1,7 +1,9 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+
 public class Principal {
     public static void main(String[] args) {
-        /* 
+        
         //pruebas de los métodos en Iterativo.java
         //prueba ejer1:
         System.out.println("Suma iterativa de 5: " + Iterativo.suma(5));
@@ -11,8 +13,15 @@ public class Principal {
         //NO ENTIENDO PORQ POTENCIA DA ERROR
         System.out.println("Potencia de 2 elevado a 3: " + Iterativo.potencia(2, 3));
         //prueba ejer4:
-        int[] lista = {1, 2, 3, 4, 5, 6};
-        System.out.println("Suma de pares recursiva en lista: " + Iterativo.sumaListaPares(lista, 0));
+        ArrayList<Integer> lista1 = new ArrayList<Integer>();
+        lista1.add(1);
+        lista1.add(2);
+        lista1.add(3);
+        lista1.add(4); // 4º - get(3)
+        lista1.add(5);
+        lista1.add(6);
+        
+        System.out.println("Suma de pares recursiva en lista: " + Iterativo.sumaLista(lista1));
         //prueba ejer5:
         System.out.println("la media de la lista es:" + Iterativo.mediaLista(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer6:
@@ -22,8 +31,8 @@ public class Principal {
         //prueba ejer8:
         System.out.println("la suma par de la lista es: +" + Iterativo.sumaListaPares(Arrays.asList(1, 2, 3, 4, 5)));
         //prueba ejer9:
-*/
 
+/* 
         //pruebas de los métodos en Recursivo.java
         //prueba eje1:
         System.out.println("La suma es: " + Recursivo.suma(5));
@@ -55,7 +64,7 @@ public class Principal {
         //prueba ejer8:
         //prueba ejer9: 
         System.out.println("Los números pares son: " + ExpresionLambda.obtenerListaPar(Arrays.asList(1, 2, 6, 11)));
-
+*/
 
     }
 }
