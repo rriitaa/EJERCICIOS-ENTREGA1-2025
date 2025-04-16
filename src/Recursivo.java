@@ -26,7 +26,7 @@ public class Recursivo{
         if (exponente == 0){
             return 1; //todo numero q tenga de exponente 0 te dara 1
         }
-        return base * exponente;
+        return base * potencia(base, exponente-1);
     }
 
     //EJERCICIO 4: La suma de los elementos de una lista de números.
