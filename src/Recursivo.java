@@ -65,7 +65,7 @@ public class Recursivo{
      }
 
     //EJERCICIO 8: La suma de los elementos pares de una lista de enteros. 
-    //Por ejemplo, sumaP ares([1, 2, 3, 4]) = 6.  
+    //Por ejemplo, sumaPares([1, 2, 3, 4]) = 6.  
 
     public static int sumaListaPares(int[] arr, int posicion) {
         if (posicion == arr.length) {

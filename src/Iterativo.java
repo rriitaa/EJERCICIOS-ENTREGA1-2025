@@ -47,7 +47,7 @@ public static int sumaLista(List<Integer>listaa){
 //y luego divido por el num de elemntos q tenga la lista
 public static double mediaLista(List<Integer>listaa){
     int suma = 0;
-    for(int i=0; i<=listaa.size(); i++){
+    for(int i=0; i< listaa.size(); i++){ //importante es i<listaa.size() porq si no se saldria de la lista
         suma = suma + listaa.get(i);
     }
     return suma/listaa.size(); //NO ENTIENDO DIFERENCIA ENTRE SIZE Y LENGTH
