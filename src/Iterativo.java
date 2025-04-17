@@ -100,7 +100,18 @@ public static int sumaListaPares(List<Integer>listaa){
 
 //EJERCICIO 9: Dada una lista de números naturales mayores o iguales que 2, 
 //obtiene otra lista con los números pares de la lista inicial, en el mismo orden y
-//respetando los números repetidos. Por ejemplo, obtenerListaP ar([1, 2, 6, 11]) = [2, 6].
+//respetando los números repetidos. Por ejemplo, obtenerLista([1, 2, 6, 11]) = [2, 6].
+
+public static List<Integer> obtenerLista(List<Integer> listaa) {
+    List<Integer> nuevaLista = new ArrayList<>();
+    for (int i = 0; i < listaa.size(); i++) {
+        if (listaa.get(i) % 2 == 0) {
+            nuevaLista.add(listaa.get(i));
+        }
+    }
+    return nuevaLista;
+}
+
 
 //EJERCICIO 10: La lista de los primeros números pares hasta n asumiendo n ≥ 2. 
 //Por ejemplo, listaP ar(9) = [8, 6, 4, 2].
